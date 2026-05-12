@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=JetBrains+Mono:ital,wght@0,500;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 @font-face {
   font-family: 'Foonnt';
-  src: url('/assets/foonnt.otf') format('opentype');
+  src: url('https://www.designscape.club/assets/foonnt.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -22,6 +21,7 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
   background-color: #000;
+  font-family: 'Foonnt', sans-serif;
 }
 
 
