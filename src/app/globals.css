@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Foonnt';
-  src: url('https://www.designscape.club/assets/foonnt.otf') format('opentype');
+  src: url('/assets/foonnt.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
