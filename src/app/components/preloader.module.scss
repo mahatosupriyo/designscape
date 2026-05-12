@@ -13,7 +13,7 @@
     align-items: center;
     justify-content: center;
 
-    background: #ffffff;
+    background: #FACE6F;
 
     // Optimizes transform animation performance
     will-change: transform;
@@ -41,7 +41,7 @@
  * - Larger for better visibility
  */
 .video {
-    width: 20%;
+    width: 24rem;
     display: block;
 
     // Prevent interaction
@@ -51,6 +51,8 @@
     @media (max-width: 768px) {
         width: 48%;
     }
+
+
 }
 
 /**
@@ -62,8 +64,8 @@
  */
 .counter {
     position: absolute;
-    right: 2.8rem;
-    bottom: 2.4rem;
+    right: 2rem;
+    bottom: 2rem;
 
     display: flex;
     align-items: baseline;
@@ -97,7 +99,8 @@
 
     min-width: 3ch;
 
-    font-size: clamp(3.5rem, 8vw, 10rem);
+    // font-size: clamp(3.5rem, 8vw, 10rem);
+    font-size: 10rem;
     text-align: right;
     font-family: 'Foonnt', sans-serif;
 }

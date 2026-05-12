@@ -131,7 +131,7 @@ export default function Preloader() {
                         <video
                             ref={videoRef}
                             className={styles.video}
-                            src="/assets/concept.mp4"
+                            src="/assets/logo.mp4"
                             muted
                             autoPlay
                             playsInline
