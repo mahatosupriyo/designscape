@@ -41,7 +41,7 @@
  * - Larger for better visibility
  */
 .video {
-    width: 18%;
+    width: 20%;
     display: block;
 
     // Prevent interaction
@@ -97,7 +97,7 @@
 
     min-width: 3ch;
 
-    font-size: clamp(3.5rem, 8vw, 6rem);
+    font-size: clamp(3.5rem, 8vw, 10rem);
     text-align: right;
     font-family: 'Foonnt', sans-serif;
 }
