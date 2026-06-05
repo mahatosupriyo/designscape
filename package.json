@@ -8,17 +8,22 @@
     "start": "next start"
   },
   "dependencies": {
+    "chroma-js": "^3.2.0",
     "framer-motion": "^12.38.0",
     "next": "16.2.6",
+    "next-video": "^2.8.0",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "sass": "^1.99.0",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "sonner": "^2.0.7"
   },
   "devDependencies": {
+    "@types/chroma-js": "^3.1.2",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "colorthief": "^2.6.0",
     "typescript": "^5"
   }
 }

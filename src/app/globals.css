@@ -1,11 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 @font-face {
-  font-family: 'Foonnt';
-  src: url('/foonnt.otf') format('opentype');
-  font-weight: normal;
+  font-family: 'Youth Font';
+  src: url('/Youth-Black-trial.otf') format('opentype');
+  font-weight: 800;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Youth Font';
+  src: url('/Youth-Bold-trial.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Youth Font';
+  src: url('/Youth-Regular-trial.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 html {
   font-size: 62.5%;
@@ -20,8 +35,8 @@ html {
 body {
   font-optical-sizing: auto;
   font-style: normal;
-  background-color: #fff;
-  font-family: 'Foonnt', sans-serif;
+  background-color: #000;
+  font-family: Youth Font, sans-serif;
 }
 
 
@@ -35,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Foonnt', sans-serif;
+  font-family: 'Youth Font', sans-serif;
 }
 
 button {
