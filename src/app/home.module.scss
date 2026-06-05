@@ -113,6 +113,17 @@
                         transition: 0.16s ease-in-out;
                     }
 
+                    .tag{
+                        background-color: #178CE5;
+                        color: #fff;
+                        font-size: 1.2rem;
+                        border-radius: 0.4rem;
+                        line-height: 100%;
+                        font-family: 'Space Grotesk', sans-serif;
+                        padding: 0.4rem 0.3rem;
+                        font-weight: 500;
+                    }
+
                     &::after {
                         content: '';
                         display: flex;

@@ -24,6 +24,7 @@ export default function Home() {
               <svg className={styles.icon} height="12" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5 2.01172L4.36157 2.53374L3.61877 1.29883L2 4.5L0 5V4.5L1.33552 4.09091L2.6977 1.34055L1.70044 1.788L1.42008 0.939276L3.73153 0L5 2.01172Z" />
               </svg>
+              <span className={styles.tag}>NEW</span>
             </Link>
 
             <span className={styles.divider}></span>
@@ -44,7 +45,6 @@ export default function Home() {
 
         </div>
 
-        <Video style={{ userSelect: 'none', pointerEvents: 'none' }} loop autoPlay playbackId="a01cOFd8zVZTN4Dg7XPQfts7Bu00vVd2S7ze7tsAJARiY" />
 
         <footer className={styles.footer}>
           <div className={styles.footerwraper}>
