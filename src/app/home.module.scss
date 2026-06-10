@@ -1,5 +1,5 @@
 .wraper {
-    background-color: #000;
+    background-color: hsl(0, 0%, 7%);
     min-height: 100vh;
     height: 100%;
     width: 100%;
@@ -63,7 +63,7 @@
             flex-direction: row;
             align-items: center;
 
-            background-color: hsla(0, 0%, 0%, 0.8);
+            background-color: hsla(0, 0%, 7%, 0.8);
             backdrop-filter: blur(50px);
 
             @media screen and (max-width: 1000px) {
@@ -157,6 +157,10 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 4rem 0rem;
+    color: #fff;
+    gap: 0.4rem;
+    font-size: 1.2rem;
+    font-weight: 400;
 
     .footerwraper {
         display: flex;
@@ -171,5 +175,14 @@
         .designscape {
             fill: #fff;
         }
+    }
+}
+
+.lottiewraper {
+    border-radius: 6rem;
+    overflow: hidden;
+
+    @media screen and (max-width: 1000px) {
+        border-radius: 1rem;
     }
 }

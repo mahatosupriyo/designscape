@@ -1,6 +1,8 @@
+"use client";
+import Lottie from "lottie-react";
 import Link from "next/link";
 import styles from "./home.module.scss";
-import Video from 'next-video'
+import Scene from '../../public/scene.json';
 
 export default function Home() {
   return (
@@ -26,15 +28,6 @@ export default function Home() {
               </svg>
               <span className={styles.tag}>NEW</span>
             </Link>
-
-            {/* <span className={styles.divider}></span> */}
-
-            {/* <Link target="_blank" className={styles.cta} href={'/paretto'}>
-              web
-              <svg className={styles.icon} height="12" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M5 2.01172L4.36157 2.53374L3.61877 1.29883L2 4.5L0 5V4.5L1.33552 4.09091L2.6977 1.34055L1.70044 1.788L1.42008 0.939276L3.73153 0L5 2.01172Z" />
-              </svg>
-            </Link> */}
           </div>
         </nav>
 
@@ -42,7 +35,10 @@ export default function Home() {
           <div className={styles.title}>
             finding the perfect color palette is no longer a problem.
           </div>
+        </div>
 
+        <div className={styles.lottiewraper}>
+          <Lottie className={styles.lottie} animationData={Scene} loop={true} />
         </div>
 
 
